@@ -46,7 +46,7 @@ for idx, chunk in enumerate(chunks):
         }]
     )
 
-client = OpenAI(api_key = os.environ.get("OPENAI_API_KEY"))
+client = OpenAI(api_key = st.secrets["OPENAI_API_KEY"])
 
 # Step 6: Query the collection
 query_text = "Chi era Devens?"

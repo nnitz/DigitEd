@@ -106,3 +106,10 @@ def get_RAG_completion(query, n_results=3):
     return get_completion(formatted_query, system_prompt)
 
 get_RAG_completion("Come le aziende possono usare i dati per prendere decisioni?")
+
+
+# Checkpoint 2: Update previous titles and markdown text
+st.title("RAG Assistant")
+st.markdown("This app uses Chroma to perform similarity searches on a collection of documents.")
+st.sidebar.title("Enter suitable text")
+st.sidebar.markdown("Adjust the settings for your query.")

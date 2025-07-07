@@ -29,7 +29,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 chunks = text_splitter.create_documents([text_to_chunk])
 
 # Step 4: Create Chroma client and collection
-chroma_client = chromadb.PersistentClient(path="/Users/natalienitz/Desktop/DigitEd/Data")
+chroma_client = chromadb.PersistentClient(path="./Data")
 collection = chroma_client.get_or_create_collection(
     name="test_bizint_chunks",
     metadata={"hnsw:space": "cosine"}

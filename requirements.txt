@@ -1,2 +1,4 @@
 openai
 chromadb
+pysqlite3-binary
+sqlite3

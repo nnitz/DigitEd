@@ -2,6 +2,7 @@
 streamlit
 Pillow
 pysqlite3-binary
+streamlit-chromadb-connection
 
 # OpenAI API support
 openai

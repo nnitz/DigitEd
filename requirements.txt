@@ -1,6 +1,7 @@
 # Web interface
 streamlit
 Pillow
+pysqlite3-binary
 
 # OpenAI API support
 openai

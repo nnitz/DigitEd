@@ -1,1 +1,25 @@
+# Web interface
+streamlit
+Pillow
+
+# OpenAI API support
+openai
+
+# Vector store and RAG
 chromadb
+faiss-cpu
+sentence-transformers
+
+# LLM/RAG framework
+langchain
+tqdm
+
+# PDF parsing (if you process documents)
+pypdf
+
+# Environment variable and system support
+python-dotenv
+
+# Optional but helpful
+numpy
+pandas

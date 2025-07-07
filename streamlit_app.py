@@ -1,6 +1,11 @@
-# FULL CODE
+# UNCOMMET TO PUSH TO STREAMLIT CLOUD
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
+import streamlit as st
 import chromadb
+
 import os
 from chromadb import PersistentClient
 from langchain.text_splitter import RecursiveCharacterTextSplitter

@@ -12,7 +12,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import streamlit as st
 import os
-load_dotenv('.env')
+load_dotenv()
 
 
 # Step 1: Load text from file
